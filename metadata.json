@@ -1,0 +1,6 @@
+{
+  "name": "ELEFANTE ROSA – 3 CARROS ESCOLARES",
+  "description": "Sistema completo de gestão de transporte escolar com três instalações independentes (Carro 01, Carro 02 e Carro 03), controle financeiro, documentos privados e backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

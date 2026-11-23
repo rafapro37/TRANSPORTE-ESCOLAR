@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #e11d62;
+  --brand-secondary: #0f172a;
+  --brand-button: #e11d62;
+  --brand-menu: #ffffff;
+  --brand-bg: #f8fafc;
+  --brand-text: #0f172a;
+  --brand-accent: #be123c;
+}
+
+body {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-mono-num {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
